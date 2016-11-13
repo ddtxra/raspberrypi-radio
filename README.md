@@ -1,9 +1,11 @@
-# raspberrypi-radio
+# PI Web Radio
 
-This project aims at giving a web layer to the piradio project:
-http://www.dronkert.net/rpi/radio.html
+This project aims at giving a nice interface to your raspberry pi radio.
+
+<a href="assets/screenshot.png" target="_blank"><img width="90%" src="assets/screenshot.png"/></a>
 
 # Prerequisites
+* http://www.rougefm.com/favicon.ico
 * Apache with PHP5 https://www.raspberrypi.org/documentation/remote-access/web-server/apache.md
 * MPC / MPD https://learn.adafruit.com/raspberry-pi-radio-player-with-touchscreen/installing-the-music-player-daemon
 
