@@ -1,8 +1,8 @@
 [
   {
-    "name": "FIP Radio",
-    "url": "http://mp3.live.tv-radio.com/fip/all/fiphautdebit.mp3",
-    "icon": "http://www.fipradio.fr/sites/all/themes/custom/fip/fb_share_logo.jpg"
+    "name": "Rouge FM",
+    "url": "http://rougefm.ice.infomaniak.ch/rougefm-high.mp3,
+    "icon": "http://www.rougefm.com/favicon.ico"
   },
   {
     "name": "Hits Florida Radio",
