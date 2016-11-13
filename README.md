@@ -18,6 +18,5 @@ sudo ln -s ~/raspberrypi-webradio/web/ /var/www/radio
 ```
 
 Other useful references
-https://www.internet-radio.com/
-
-
+* https://www.internet-radio.com/
+* http://mattdyson.org/projects/alarmpi/
