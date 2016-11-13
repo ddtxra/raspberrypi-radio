@@ -1,5 +1,10 @@
 [
   {
+    "name": "Nova Era",
+    "url": "mms://stream.radio.com.pt/roli-enc-478",
+    "icon": "https://pbs.twimg.com/profile_images/633204578226413568/egyleHDL.jpg"
+  },
+  {
     "name": "Rouge FM",
     "url": "http://rougefm.ice.infomaniak.ch/rougefm-high.mp3",
     "icon": "http://www.rougefm.com/favicon.ico"
