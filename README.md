@@ -1,4 +1,4 @@
-# PI Web Radio
+# PI Web Radio (under development)
 
 This project aims at giving a nice interface to your raspberry pi radio.
 
