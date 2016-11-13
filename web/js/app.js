@@ -33,14 +33,24 @@ angular.module('starter', ['ionic'])
   })
 
   $scope.changeChannel = function (channelUrl){
-    MPCService.changeChannel(channelUrl).success(function(response){
+    MPCService.controlRadio({"channel" : channelUrl}).success(function(response){
+      console.log(response);
+    })
+  }
+
+  $scope.changeVolume = function (volumeChange){
+    MPCService.controlRadio({"volume" : volumeChange}).success(function(response){
+      console.log(response);
+    })
+  }
+
+  $scope.turnOffRadio = function (){
+    MPCService.controlRadio({off : "off"}).success(function(response){
       console.log(response);
     })
   }
 
 }])
-
-
 
 .service('RadioService', ['$http',  function($http) {
 	return {
@@ -53,8 +63,8 @@ angular.module('starter', ['ionic'])
 
 .service('MPCService', ['$http',  function($http) {
 	return {
-		changeChannel: function(channelUrl){
-			return $http.post("mpc.php", {"channelUrl" : channelUrl});
+		controlRadio: function(data){
+			return $http.post("mpc.php", data);
 		}
 	}
 }])

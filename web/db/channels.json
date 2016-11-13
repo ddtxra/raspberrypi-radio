@@ -1,5 +1,10 @@
 [
   {
+    "name": "FIP Radio",
+    "url": "http://mp3.live.tv-radio.com/fip/all/fiphautdebit.mp3",
+    "icon": "http://www.fipradio.fr/sites/all/themes/custom/fip/fb_share_logo.jpg"
+  },
+  {
     "name": "Hits Florida Radio",
     "url": "http://uk3.internet-radio.com:8136",
     "icon": "https://image.winudf.com/1130/0176ea97c3539325/icon=150x.png"
