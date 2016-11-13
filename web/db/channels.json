@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Smooth jazz florida",
+    "url": "http://us1.internet-radio.com:11094",
+    "icon": "http://gorovmusic.com/wp-content/uploads/2014/02/Smooth-Jazz-Florida-2-1.png"
+  },
+  {
+    "name": "big",
+    "url": "http://217.151.152.245/bigfm-mp3-96",
+    "description": "bigFM - Deutschlands biggste Beats",
+    "icon": "http://static.radio.net/images/broadcasts/af/e4/1444/c175.png"
+  },
+  {
+    "name": "RTL 102.5",
+    "url": "http://shoutcast.rtl.it:3010/stream/1/",
+    "description": "Radio RTL 102.5 - Very Normal People",
+    "icon": "http://img.rtl.it/www.rtl.it/img/favicon.ico"
+  },
+  {
+    "name": "kizomba",
+    "url": "http://109.71.41.250:8123/",
+    "icon" : "http://static.radio.net/images/broadcasts/82/06/21615/c175.png"
+  }
+]
