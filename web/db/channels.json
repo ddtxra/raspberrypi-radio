@@ -1,4 +1,10 @@
 [
+  
+  {
+    "name": "RFM",
+    "url": "http://7709.live.streamtheworld.com:80/GR80SRFMAAC_SC",
+    "icon": "https://static-media.streema.com/media/object-images/bbebbb55d2a4024c6db8eb44306530db.jpg"
+  },
   {
     "name": "TSF",
     "url": "http://tsfdirecto.tsf.pt/tsfdirecto.mp3",
