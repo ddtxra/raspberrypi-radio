@@ -23,8 +23,8 @@
 
 # Variables
 PLAYER=/usr/bin/mpc
-DBNAME=.radiodb
-DBFILE=/home/pi/$DBNAME
+DBNAME=radiodb
+DBFILE=/home/pi/raspberrypi-webradio/$DBNAME
 DEFVOL=85
 ADJVOL=5
 
