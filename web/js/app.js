@@ -24,6 +24,24 @@ angular.module('starter', ['ionic'])
 })
 
 
+.controller('RadioCtrl', ['$scope', 'RadioService', 'MPCService', function($scope, RadioService, MPCService) {
+
+  $scope.channels = [];
+
+  RadioService.getChannels().success(function(channels){
+    $scope.channels = channels;
+  })
+
+  $scope.changeChannel = function (channelUrl){
+    MPCService.changeChannel(channelUrl).success(function(response){
+      console.log(response);
+    })
+  }
+
+}])
+
+
+
 .service('RadioService', ['$http',  function($http) {
 	return {
 		getChannels: function(){
@@ -32,12 +50,11 @@ angular.module('starter', ['ionic'])
 	}
 }])
 
-.controller('RadioCtrl', ['$scope', 'RadioService', function($scope, RadioService) {
 
-  $scope.channels = [];
-
-  RadioService.getChannels().success(function(channels){
-    $scope.channels = channels;
-  })
-
+.service('MPCService', ['$http',  function($http) {
+	return {
+		changeChannel: function(channelUrl){
+			return $http.post("mpc.php", {"channelUrl" : channelUrl});
+		}
+	}
 }])

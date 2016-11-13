@@ -22,7 +22,7 @@
 
         <div class="list" >
 
-        <a class="item item-thumbnail-left" href="#" ng-repeat="channel in channels">
+        <a class="item item-thumbnail-left" href="#" ng-repeat="channel in channels" ng-click="changeChannel(channel.url)">
           <img ng-src="{{channel.icon}}">
           <h2>{{channel.name}}</h2>
           <p>{{channel.description}}</p>
