@@ -18,6 +18,7 @@
     exec('mpc add ' . $channel . ' > /dev/null');
     exec('mpc play > /dev/null');
 
+    exec('../bin/php_root'); 
     echo "Changing channel to " + $channel;
 
   }
