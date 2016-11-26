@@ -11,6 +11,11 @@
     "icon": "https://lh4.ggpht.com/TonKNb7XOFsH79tVMDRXx9lo0xX3Fi699_K3kvqc1y0bJ6SOvf7it49_Rm4gVsZ3Ttc=w300"
   },
   {
+    "name": "Antena 3",
+    "url": "mms://195.245.168.21/antena3",
+    "icon": "https://pbs.twimg.com/profile_images/342724004/antena-3-rgb-pos-horiz_400x400.jpg"
+  },
+  {
     "name": "Nova Era 2",
     "url": "http://centova.radios.pt:9478",
     "icon": "https://pbs.twimg.com/profile_images/633204578226413568/egyleHDL.jpg"
