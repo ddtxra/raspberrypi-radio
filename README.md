@@ -2,7 +2,7 @@
 
 This project aims at giving a nice interface to your raspberry pi radio.
 
-<a href="assets/screenshot.png" target="_blank"><img width="50%" src="assets/screenshot.png"/></a>
+<a href="assets/screenshot.png" target="_blank"><img width="40%" src="assets/screenshot.png"/></a>
 
 # Prerequisites
 * http://www.rougefm.com/favicon.ico
